@@ -1,8 +1,9 @@
 {
   "name": "urlshort",
   "version": "0.0.0",
+  "private": true,
   "description": "a url shortener that allows users to entry arbitrary substrings in the middle of the url",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/dinosaurav/urlshort/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "express-handlebars": "~3.0.0"
   }
 }

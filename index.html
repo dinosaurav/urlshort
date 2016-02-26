@@ -7,23 +7,22 @@
 <title>URL Shortener</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-primary">
 
 <div class="container">
-
 <div class="page-header text-center">
   <h1>URL Shortener</h1>
 </div>
 
-<div class="well">
+<div class="alert alert-info">
   <div class="input-group">
     <span class="input-group-addon">URL:</span>
     <input type="text" class="form-control" placeholder="URL with $# as argument">
     <span class="input-group-btn"><button class="btn btn-default">Enter</button></span>
   </div>
-  <div class="f">
+  <div class="hidden">
     <br>
-  <div class="f">
+  <div class="well">
     <p>
     Loading...
   </p>
@@ -31,16 +30,15 @@
 </div>
 </div>
 
-<div class="well">
+<div class="alert alert-info">
   <p>Example Arguments: </p>
   <p><a href="#">https://www.google.com/search?q=$1&biw=950&bih=973&tbm=nws&source=lnt&tbs=qdr:h&sa=X&ved=0ahUKEwjIkYDVuZbLAhXDKx4KHQtQCmkQpwUIFQ&dpr=1</a></p>
 </div>
 
-<div class="well text-center">
+<div class="alert alert-info text-center">
   <p>Made by <a href="http://github.com/dinosaurav/">Saurav Das</a></p>
   <p><a href="http://github.com/dinosaurav/">github.com/dinosaurav</a></p>
 </div>
-
 </div>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
