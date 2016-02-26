@@ -1,0 +1,23 @@
+{
+  "name": "urlshort",
+  "version": "0.0.0",
+  "description": "a url shortener that allows users to entry arbitrary substrings in the middle of the url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinosaurav/urlshort.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "nodejs"
+  ],
+  "author": "Saurav Das",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dinosaurav/urlshort/issues"
+  }
+}
